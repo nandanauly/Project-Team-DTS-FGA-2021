@@ -1,0 +1,27 @@
+/* Untuk Tablet*/
+@media all and (max-width: 1000px){
+  /*Produk (Rafif Musyaffa) start*/
+  .products{
+    width: 50%;
+  }
+  /* Produk (Rafif Musyaffa) End */
+}
+/* Untuk Smartphones */
+@media all and (max-width: 670px){
+  /* Header+about us(Quintan Suri Istiqomah) start */
+  .header-right {
+    display: none;
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display: block;
+  }
+  /* Header+about us(Quintan Suri Istiqomah) end */
+  /*Produk (Rafif Musyaffa) start*/
+  .products{
+    width: 100%;
+    display: block;
+  }
+  /* Produk (Rafif Musyaffa) End */
+}
