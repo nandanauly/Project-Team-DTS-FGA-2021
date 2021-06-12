@@ -1,0 +1,433 @@
+/* Header+about us (Quintan Suri Istiqomah) start */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #222730;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 161px;
+  margin-top: 1px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 25px 0;
+  display: none;
+}
+
+.about-us{
+    margin:100px 25px;
+    color:rgb(79, 99, 103);
+}
+
+.desc-about h2{
+    color:#4F6367;
+    font-size:35.2px;
+    font-weight:900;
+    margin-bottom:50px;
+}
+
+.desc-about h3{
+    text-align: center;
+    font-weight:normal;
+    font-size:27.2px;
+}
+
+.bold{
+    font-weight:900;
+}
+
+.fa-heart{
+    color:rgb(5, 164, 194);
+    font-size:50px;
+}
+/* Header+about us (Quintan Suri Istiqomah) end */
+/* Top-Wrapper (Nanda Nauly Zazkia Putri) start */
+
+.top-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url(https://images.unsplash.com/photo-1532947913256-91eec0edc198?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=nastya-dulhiier-_FqNEHrxDFM-unsplash.jpg);
+  background-size: cover;
+  color: #fffdf9;
+}
+
+.top-wrapper h1 {
+  padding-left: 25px;
+  font-size: 45px;
+  font-family: 'Lucida Grande';
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  opacity: 1;
+  text-align: left;
+}
+
+.top-wrapper h2 {
+  padding-left: 25px;
+  opacity: 1;
+}
+
+.top-wrapper p {
+  padding-left: 25px;
+  opacity: 1;
+  font-size: 20px;
+  text-align: left;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+
+.buy {
+  padding: 15px 20px;
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 4px;
+  background-color: #f38181;
+  margin-top: 30px;
+}
+/* Top Wrapper (Nanda Nauly Zazkia Putri) end */
+/*Produk (Rafif Musyaffa) start*/
+.products{
+  position: relative;
+  width: 25%;
+  float: left;
+  
+}
+
+.product-thumbnail img{
+  height: 60vmin;
+  width: 100%;
+}
+
+.product-overlay{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.product-overlay:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.product-overlay:hover > *{
+  transform: translateY(0);
+  cursor: pointer;
+}
+
+.product-overlay > *{
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.product-description{
+  font-size: 2em;
+  font-weight: bold;
+  color: #00a3c2;
+}
+
+.product-wrapper{
+  padding: 80px 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.product-wrapper h1{
+  color: #00a3c2;
+}
+
+/* Produk (Rafif Musyaffa) End */
+/* Testimoni (Nicky Annisa D) start*/
+.btn-testimoni {
+  padding: 5px 10px;
+  color: rgb(51, 51, 221);
+  opacity: 10;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  width: 100%
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+  
+.message {
+  padding: 20px 50px;
+  background-color: #0984e3;
+  font-family: "Avenir Next";
+  cursor: pointer;
+  box-shadow: 0 10px #81ecec;
+}
+
+.message:active {
+  position: relative;
+  top: 4px;
+  box-shadow: none;
+}
+/* Testimoni (Nicky Annisa D) end*/
+/** start contact section **/
+.contact {
+  padding-top: 90px;
+}
+
+.contact_bg .titlepage {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.contact_bg .titlepage h2 {
+  padding: 0px;
+  color: #fff;
+}
+.contact_bg {
+ max-width: 677px;
+ margin: 0 auto;
+ text-align: center;
+  padding: 40px 0px 50px 0px;
+}
+.contact_bg .contactus {
+  border: #b1b0b0 solid 1px;
+  padding: 12px 19px;
+  margin-bottom: 15px;
+  border-radius: inherit;
+  color: #000;
+  width: 100%;
+  height: 44px;
+}
+.contact_bg .textarea {
+  margin-bottom: 15px;
+  padding: 15px 19px;
+  color: #000 !important;
+  width: 100%;
+  border: #b1b0b0 solid 1px;
+  border-radius: inherit;
+}
+.contact_bg .send {
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  max-width: 171px;
+  width: 100%;
+  padding: 11px 0px;
+  transition: all 0.3s ease-in;
+  border-radius: 30px;
+}
+.contact_bg .send:hover {
+  background-color: #0fb0d3;
+
+color: #fff;
+transition: all 0.3s ease-in;
+
+}
+/** end contact section **/
+
+/** footer **/
+.footer {
+  background: #161616;
+  margin-top: 90px;
+}
+.news h3 {
+ color: #fff;
+font-size: 20px;
+line-height: 21px;
+text-align: left;
+font-weight: 500;
+padding-bottom: 20px;
+}
+
+.footer .address h3 {
+  color: #fff;
+font-size: 30px;
+line-height: 35px;
+font-weight: 500;
+padding-bottom: 20px;
+}
+.location_section {
+  background-color: #fff;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  padding: 20px 35px;
+}
+
+.border_top {border-top: #ddd solid 1px;} 
+.news {
+  padding: 35px 0px 50px 0px;
+  max-width: 71%;
+  margin: 0 auto;
+}
+.news .newslatter {
+  padding: 0px 30px;
+  box-shadow: inherit;
+  border: inherit;
+  width: 70%;
+  font-size: 16px;
+ height: 52px;
+  text-transform: uppercase;
+}
+.submit {
+
+ height: 52px;
+ border: #0fb0d3 solid 1px;
+  background: #0fb0d3;
+  color: #fff;
+  margin-left: -5px;
+  font-weight: 500;
+  font-size: 16px;
+max-width: 191px;
+  width: 100%;
+   text-transform: uppercase;
+   transition: all 0.3s ease-in;
+}
+.submit:hover {
+  background: #ddd;
+  border: #ddd solid 1px;
+  color: #0fb0d3;
+  transition: all 0.3s ease-in;
+
+}
+
+ul.loca {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+
+
+ul.loca li {
+  color: #fcfbfb;
+ padding: 0px 30px;
+ font-size: 18px;
+
+}
+ul.loca li a {
+  padding-right: 16px;
+  color: #fcfbfb;
+  margin-top: 4px;
+}
+
+
+ul.social_link {
+ display: flex;
+justify-content: center;
+margin-top: 30px;
+flex-wrap: wrap;
+}
+ul.social_link li {
+ display: inline-block;
+  padding-right: 4px;
+  margin: 0px 4px;
+
+}
+
+ul.social_link li a  {
+  font-size: 24px;
+  color: #161616;
+  background: #0fb0d3;
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 41px;
+  justify-content: center;
+}
+
+ul.social_link li a:hover {
+color: #fff;
+}
+
+.copyright {
+  padding: 23px 0px;
+  margin-top: 55px;
+  border-top: #ddd solid 1px;
+}
+.copyright p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+
+}
+.copyright a {
+  color: #fff;
+}
+.copyright a:hover {
+  color: #0fb0d3 ;
+}
+/** end footer **/
+
+.contineer_page .header {background: #656565; padding-bottom: 27px;     position: inherit;}
+
+.backgro_mh {background: #0ed1f0; }
+.heding h2 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 60px;
+  padding: 45px 0;
+  text-align: center;
+}
